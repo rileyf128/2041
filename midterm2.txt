@@ -1,0 +1,67 @@
+PROBLEM 1:
+
+1.('a -> 'b) -> ('c -> 'a) -> 'c -> 'b = <fun>
+2.('a -> 'b -> 'b) -> 'a list -> 'b -> 'b = <fun>
+3. val append : 'a list -> 'a list -> 'a list = <fun>
+
+PROBLEM 2: 
+
+1. let rec map2 f l1 l2 = 
+      match 
+
+2. let rec divide_list = b lst 
+      match lst with 
+       |[] -> []
+       |(h::t) -> if b h = true then h::lst1 else h::lst2 
+
+3. let rec filter_pair f lst1 lst2 
+     match 
+
+4. let rec treemap tree f = 
+      match tree with 
+        |Empty -> Empty
+        |Node(d,l,r) -> Node (f d, treemap l f, treemap r f)
+
+PROBLEM 3: 
+
+1. let append l1 l2 = reduce (fun x y-> x::y) l1 l2 
+
+2. let filter f l1 = (fun x -> if f x = true then x::
+
+3.
+
+4.
+
+PROBLEM 4: 
+
+1. let sumlist lst = 
+     let rec acc lst1 v = 
+       match lst1 with
+        |[] -> 0
+        |(h::t) -> acc t v+h
+   in sumlist []
+
+2. let append l1 l2 = 
+    let rec 
+
+
+3. let sumtree t = 
+     let rec acc t v = 
+       |Empty -> 0 
+       | Node(d, l, r) -> (acc l v+d) + (acc r v+d)
+
+PROBLEM 5: 
+
+let rec insert bstree v = 
+    match bstree with 
+      |Empty -> Node(v, Empty, Empty)
+      |Node(d, l, r) -> if lss d = true then insert l d else insert r d 
+
+let rec delete bstree v = 
+    match bstree with
+      |Empty -> []
+      |Node(d, l, r) -> if d = v then Nod
+
+PROBLEM 6:
+
+
